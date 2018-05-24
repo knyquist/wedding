@@ -1,3 +1,7 @@
+# Wedding site
+
+This project is forked from an angular boilerplate tailored for heroku deployment
+
 # AngularCliHeroku
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.3.
