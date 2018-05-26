@@ -1,15 +1,27 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  gif: string;
+
+  constructor() {
+    this.gif = "../../assets/img/Kris_Sara_gif_static.gif";
+  }
 
   ngOnInit() {
   }
 
+  public gifOnHover() {
+    this.gif = "../../assets/img/Kris_Sara_gif.gif"
+  }
+
+  public gifOffHover() {
+    this.gif = "../../assets/img/Kris_Sara_gif_static.gif"
+  }
+  
 }

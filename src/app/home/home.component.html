@@ -1,21 +1,35 @@
-<div class="jumbotron">
-  <div class="text-center">
-    <img src="/assets/img/logo-color-long.png" alt="" class="img-responsive">
-    <h2>Angular CLI Heroku Deployment Demo</h2>
-    <button class="btn btn-primary" routerLink="/subroute">Go To Another Route</button>
-    <hr>
-    <h3>To deploy an Angular 2 app with the Angular CLI to Heroku:</h3>
-  </div>
-  <div class="col-sm-6 col-sm-offset-3 instructions">
-    <ul>
-      <li>Create a Heroku account</li>
-      <li>Install the Heroku CLI</li>
-      <li>Create a Heroku app in your project directory with <code>heroku create</code></li>
-      <li>Move the <code>angular-cli</code> dependency from <code>devDependencies</code> to <code>dependencies</code> in your <code>package.json</code></li>
-      <li>Create a <code>postinstall</code> <code>script</code> in your <code>package.json</code> which builds your project to a <code>dist</code> directory on your server: <code>ng build --aot -prod</code></li>
-      <li>Install express: <code>npm install express --save</code></li>
-      <li>Create a <code>server.js</code> file in the root of your project and add code to serve the static files in your <code>dist</code> directory</li>
-      <li>Commit your work and push it to Heroku to deploy: <code>git push heroku master</code></li>
-    </ul>
+<div class='container-fluid'>
+  <div class="row">
+    <div class="col-3">
+    </div>
+    <div class="col-6">
+      <h1 id="home-title">Kristofor and Sara</h1>
+      <p id="home-subtitle">We're getting married!</p>
+      <hr style="border-color: white">
+      <p>
+        September 22, 2018<br>
+        Santa Cruz Museum of Art & History
+      </p>
+      <p>
+        We're excited to bring our friends and family together
+        to celebrate our love and committment in marriage. The
+        wedding will happen on Saturday, September 22, 2018
+        at a venue right in heart of Santa Cruz.
+      </p>
+      <p>
+        The ceremony will start sometime in the late afternoon
+        or early evening and we'll celebrate into the night
+        with food, dancing, and drinks. As soon as we know more,
+        we'll update this site! An invitation will follow the 
+        save-the-date you've already received with more specific
+        information.
+      </p>
+      <img id="home-gif" align="middle"
+           (mouseover)="gifOnHover()"
+           (mouseleave)="gifOffHover()" 
+           src="{{gif}}">
+    </div>
+    <div class="col-3">
+    </div>
   </div>
 </div>

@@ -10,6 +10,8 @@ import { SubrouteComponent } from './subroute/subroute.component';
 import { ROUTES } from './app.routes';
 import { HomeComponent } from './home/home.component';
 
+import '../styles.css';
+
 @NgModule({
   declarations: [
     AppComponent,

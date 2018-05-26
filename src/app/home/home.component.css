@@ -1,11 +1,29 @@
-.jumbotron {
-  margin-top: 20px;
+/*styles for home content only*/
+#home-title {
+	padding: 125px 0 0 0;
+	font-weight: bolder;
+	text-align: left;
+	vertical-align: bottom;
+	font-family: sans-serif;
+	color: white;
 }
 
-.jumbotron hr {
-  border-color: #999;
+#home-gif {
+	width: 100%;
+	opacity: 0.5;
+	border-radius: 15%;
 }
 
-.instructions {
-  float: none;
+#home-subtitle {
+	font-weight: lighter;
+	font-size: 22px;
+	text-align: left;
+	font-family: sans-serif;
+	color: white;
+}
+
+p {
+	text-align: left;
+	font-family: sans-serif;
+	color: white;
 }

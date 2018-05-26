@@ -1,4 +1,4 @@
-{
+q{
   "name": "angular-cli-heroku",
   "version": "0.0.0",
   "license": "MIT",
@@ -30,8 +30,6 @@
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "express": "^4.16.3",
-    "jquery": "^1.9.1",
-    "popper.js": "^1.14.3",
     "rxjs": "^5.4.1",
     "typescript": "~2.4.2",
     "zone.js": "^0.8.14"
