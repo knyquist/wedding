@@ -1,0 +1,24 @@
+/*styles for subroute content only*/
+#subroute-title {
+	padding: 125px 0 0 0;
+	font-weight: bolder;
+	text-align: left;
+	vertical-align: bottom;
+	font-family: sans-serif;
+	color: white;
+}
+
+#subroute-subtitle {
+	font-weight: lighter;
+	font-size: 22px;
+	text-align: left;
+	font-family: sans-serif;
+	color: white;
+}
+
+p {
+	text-align: left;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: white;
+}
