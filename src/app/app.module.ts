@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { SubrouteComponent } from './subroute/subroute.component';
+import { WeddingInfoComponent } from './weddinginfo/weddinginfo.component';
 
 import { ROUTES } from './app.routes';
 import { HomeComponent } from './home/home.component';
@@ -15,7 +15,7 @@ import '../styles.css';
 @NgModule({
   declarations: [
     AppComponent,
-    SubrouteComponent,
+    WeddingInfoComponent,
     HomeComponent
   ],
   imports: [

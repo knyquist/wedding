@@ -1,17 +1,17 @@
-<nav id="navbar" class="navbar navbar-default">
-  <div class="container-fullwidth">
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
+<nav id="navbar" class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-inner">
+      <ul class="nav navbar-nav" data-toggle="collapse" data-target=".nav-collapse">
+        <li class="nav-item dropdown">
           <a id='link' class="nav-link active" [routerLink]=" ['./home'] "
             routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
             Home
           </a>
         </li>
-        <li class="nav-item">
-          <a id='link' class="nav-link" [routerLink]=" ['./subroute'] "
+        <li class="nav-item dropdown">
+          <a id='link' class="nav-link" [routerLink]=" ['./weddinginfo'] "
             routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-            About
+            Info
           </a>
         </li>
       </ul>
