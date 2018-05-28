@@ -2,11 +2,13 @@
 	background: none;
 	border: none;
 	position: fixed;
+	z-index: 1;
 }
 
 #link{
 	background: rgba(255, 255, 255, 0.2);
 	color: white;
+	z-index: 1;
 }
 
 .homelink{
