@@ -10,8 +10,27 @@
 
 #subroute-subtitle {
 	font-weight: lighter;
-	font-size: 22px;
+	font-size: 25px;
 	text-align: left;
+	font-family: sans-serif;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h4 {
+	margin-bottom: -10px;
+	font-weight: bolder;
+	padding-top:20px;
+}
+
+h1 {
+	padding: 125px 0 0 0;
+	font-weight: bolder;
+	text-align: left;
+	vertical-align: bottom;
 	font-family: sans-serif;
 	color: white;
 }
@@ -19,6 +38,7 @@
 p {
 	text-align: left;
 	font-size: 16px;
+	font-weight: normal;
 	font-family: sans-serif;
 	color: white;
 }
